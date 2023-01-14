@@ -16,17 +16,49 @@ struct ContentView: View {
                 Rectangle()
                     .frame(width: 350, height: 500)
                 
-                HStack{
+                VStack{
                     
-                    Rectangle()
-                        .frame(width: 200, height: 300)
-                        .foregroundColor(.white)
-                    
-                    VStack{
+                    HStack{
                         
-                        Text("euofwuof")
-                            .foregroundColor(.blue)
+                        Rectangle()
+                            .frame(width: 225, height: 340)
+                            .foregroundColor(.white)
+                        
+                        VStack{
+                            
+                            Text("Mercedes")
+                                .foregroundColor(.blue)
+                                .rotationEffect(.degrees(-90))
+                                .fixedSize()
+                                .frame(width: 70, height: 240)
+                                .bold()
+                                .font(.largeTitle)
+                                .border(Color.white)
+                            
+                            ZStack{
+                                
+                                Rectangle()
+                                    .frame(width: 80, height: 80)
+                                    .foregroundColor(.white)
+                                
+                                Rectangle()
+                                    .frame(width: 70, height: 70)
+                                    .foregroundColor(.black)
+                                
+                                Text("44")
+                                    .foregroundColor(.blue)
+                                    .bold()
+                                    .font(.largeTitle)
+                            }
+                        }
                     }
+                    Spacer()
+                        .frame(height: 50)
+                    
+                    Text("Lewis Hamilton")
+                        .font(.largeTitle)
+                        .bold()
+                        .foregroundColor(.blue)
                 }
             }
         }

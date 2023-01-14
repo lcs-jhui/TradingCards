@@ -11,6 +11,7 @@
 		B9580576297094DB0066C3D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9580575297094DB0066C3D0 /* ContentView.swift */; };
 		B9580578297094DD0066C3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9580577297094DD0066C3D0 /* Assets.xcassets */; };
 		B958057B297094DD0066C3D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B958057A297094DD0066C3D0 /* Preview Assets.xcassets */; };
+		B95805862972FB0E0066C3D0 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95805852972FB0E0066C3D0 /* Testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B9580575297094DB0066C3D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9580577297094DD0066C3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B958057A297094DD0066C3D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B95805852972FB0E0066C3D0 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B9580573297094DB0066C3D0 /* TradingCardsApp.swift */,
 				B9580575297094DB0066C3D0 /* ContentView.swift */,
+				B95805852972FB0E0066C3D0 /* Testing.swift */,
 				B9580577297094DD0066C3D0 /* Assets.xcassets */,
 				B9580579297094DD0066C3D0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95805862972FB0E0066C3D0 /* Testing.swift in Sources */,
 				B9580576297094DB0066C3D0 /* ContentView.swift in Sources */,
 				B9580574297094DB0066C3D0 /* TradingCardsApp.swift in Sources */,
 			);
