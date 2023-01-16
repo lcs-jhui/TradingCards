@@ -16,11 +16,11 @@ struct StatsLayout: View {
         
         ZStack{
             Rectangle()
-                .frame(width: 350, height: 350)
+                .frame(width: 355, height: 350)
                 .foregroundColor(.black)
             
             Rectangle()
-                .frame(width: 340, height: 340)
+                .frame(width: 345, height: 340)
                 .foregroundColor(.white)
             
             
@@ -70,6 +70,6 @@ struct StatsLayout: View {
 
 struct StatsLayout_Previews: PreviewProvider {
     static var previews: some View {
-        StatsLayout(driver: lewisHamilton)
+        StatsLayout(driver: maxVerstappen)
     }
 }

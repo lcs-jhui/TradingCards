@@ -87,6 +87,6 @@ struct TradingCardLayout: View {
 
 struct TradingCardLayout_Previews: PreviewProvider {
     static var previews: some View {
-        TradingCardLayout(driver: lewisHamilton)
+        TradingCardLayout(driver: maxVerstappen)
     }
 }

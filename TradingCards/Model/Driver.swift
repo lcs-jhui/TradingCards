@@ -24,4 +24,6 @@ struct Driver {
 
 let lewisHamilton = Driver(firstName: "LEWIS", lastName: "HAMILTON", image: "LewisHamilton1", teamName: "MERCEDES", teamColor: "Tortoise", font: "COPPERPLATE-BOLD", number: "44", nationality: "British", podiums: "191", worldChampionships: "7", description: "rggourehgoiuergouerngoergniorenohvwreouihrweoufhwroefhwrofhou")
 
-let maxVerstappen = Driver(firstName: "MAX", lastName: "VERSTAPPEN", image: "MaxVersteppen1", teamName: "RED BULL", teamColor: "Yellow", font: "COPPERPLATE-BOLD", number: "1", nationality: "Netherlands", podiums: "77", worldChampionships: "2", description: "wjbgwougbwkgbowreljgbkwrbgljwbwrogbw")
+let maxVerstappen = Driver(firstName: "MAX", lastName: "VERSTAPPEN", image: "MaxVerstappen1", teamName: "RED BULL", teamColor: "Yellow", font: "COPPERPLATE-BOLD", number: "1", nationality: "Netherlands", podiums: "77", worldChampionships: "2", description: "wjbgwougbwkgbowreljgbkwrbgljwbwrogbwohewgoweghoihwio")
+
+let charlesLeclerc = Driver(firstName: "CHARLES", lastName: "LECLERC", image: "CharlesLeclerc1", teamName: "FERRARI", teamColor: "rossoCorsa", font: "COPPERPLATE-BOLD", number: "16", nationality: "Monaco", podiums: "24", worldChampionships: "0", description: "joiwegoihwegiohweghiowegwogowehoeuiwgbeluirgiuebguibreougbo")

@@ -16,6 +16,8 @@
 		B958058F297349B30066C3D0 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B958058E297349B30066C3D0 /* Driver.swift */; };
 		B958059129734C5D0066C3D0 /* StatsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B958059029734C5D0066C3D0 /* StatsLayout.swift */; };
 		B95805952975962B0066C3D0 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95805942975962B0066C3D0 /* ContentView2.swift */; };
+		B9580597297598830066C3D0 /* DriverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9580596297598830066C3D0 /* DriverListView.swift */; };
+		B958059A29759DBB0066C3D0 /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B958059929759DBB0066C3D0 /* ContentView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B958058E297349B30066C3D0 /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		B958059029734C5D0066C3D0 /* StatsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsLayout.swift; sourceTree = "<group>"; };
 		B95805942975962B0066C3D0 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		B9580596297598830066C3D0 /* DriverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverListView.swift; sourceTree = "<group>"; };
+		B958059929759DBB0066C3D0 /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,7 @@
 				B9580573297094DB0066C3D0 /* TradingCardsApp.swift */,
 				B9580589297349340066C3D0 /* Model */,
 				B958059329758AEE0066C3D0 /* Views */,
-				B9580587297344720066C3D0 /* TradingCardLayout.swift */,
-				B958059029734C5D0066C3D0 /* StatsLayout.swift */,
+				B9580598297598970066C3D0 /* HelperViews */,
 				B95805852972FB0E0066C3D0 /* Testing.swift */,
 				B9580577297094DD0066C3D0 /* Assets.xcassets */,
 				B9580579297094DD0066C3D0 /* Preview Content */,
@@ -92,10 +95,21 @@
 		B958059329758AEE0066C3D0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B9580596297598830066C3D0 /* DriverListView.swift */,
 				B9580575297094DB0066C3D0 /* ContentView.swift */,
 				B95805942975962B0066C3D0 /* ContentView2.swift */,
+				B958059929759DBB0066C3D0 /* ContentView3.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B9580598297598970066C3D0 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				B958059029734C5D0066C3D0 /* StatsLayout.swift */,
+				B9580587297344720066C3D0 /* TradingCardLayout.swift */,
+			);
+			path = HelperViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +184,11 @@
 			files = (
 				B958058F297349B30066C3D0 /* Driver.swift in Sources */,
 				B958059129734C5D0066C3D0 /* StatsLayout.swift in Sources */,
+				B9580597297598830066C3D0 /* DriverListView.swift in Sources */,
 				B95805862972FB0E0066C3D0 /* Testing.swift in Sources */,
 				B9580576297094DB0066C3D0 /* ContentView.swift in Sources */,
 				B95805952975962B0066C3D0 /* ContentView2.swift in Sources */,
+				B958059A29759DBB0066C3D0 /* ContentView3.swift in Sources */,
 				B9580574297094DB0066C3D0 /* TradingCardsApp.swift in Sources */,
 				B9580588297344720066C3D0 /* TradingCardLayout.swift in Sources */,
 			);
