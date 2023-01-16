@@ -8,12 +8,9 @@
 import SwiftUI
 
 struct StatsLayout: View {
-    
-    //MARK: Stoed Properties
-    let nationality: String
-    let podiums: String
-    let worldChampionships: String
-    let description: String
+        
+    //MARK: Stored Properties
+    let driver: Driver
     
     var body: some View {
         
@@ -42,26 +39,26 @@ struct StatsLayout: View {
                     VStack (alignment: .leading){
                         Text("Nationality")
                             .bold()
-                        Text(nationality)
+                        Text(driver.nationality)
                     }
                                         
                     VStack (alignment: .leading){
                         Text("Podiums")
                             .bold()
-                        Text(podiums)
+                        Text(driver.podiums)
                     }
                     
                     VStack (alignment: .leading){
                         Text("World Champions")
                             .bold()
-                        Text(worldChampionships)
+                        Text(driver.worldChampionships)
                     }
                 }
                 
                 VStack (alignment: .leading){
                     Text("Description")
                         .bold()
-                    Text(description)
+                    Text(driver.description)
                     
                 }.frame(maxWidth: 340)
                 
@@ -73,6 +70,6 @@ struct StatsLayout: View {
 
 struct StatsLayout_Previews: PreviewProvider {
     static var previews: some View {
-        StatsLayout(nationality: "British", podiums: "191", worldChampionships: "7", description: "ergiuewbgewnnjgrwnl ehufeui oivionrivnroei nrenvrejvernv oievno erverunionrfn rnhferifererbvreihvrehi ervniervnirenirev erivber ervibervierbvi ervbhiervihrebr eribveriebi wivbwriubvrwivb vbiwrbviuwrbi wbiweb wih wbihcwe  ")
+        StatsLayout(driver: lewisHamilton)
     }
 }
