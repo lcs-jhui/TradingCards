@@ -14,17 +14,40 @@ struct DriverListView: View {
             List{
                 
                 NavigationLink(destination: {
-                    ContentView()
+                    ContentView(driver: lewisHamilton)
                 }, label: {
                     Text("Lewis Hamilton")
                 })
                 
                 NavigationLink(destination: {
-                    ContentView2()
+                    ContentView(driver: maxVerstappen)
                 }, label: {
                     Text("Max Verstappen")
                 })
                 
+                NavigationLink(destination: {
+                    ContentView(driver: charlesLeclerc)
+                }, label: {
+                    Text("Charles Leclerc")
+                })
+                
+                NavigationLink(destination: {
+                    ContentView(driver: georgeRussel)
+                }, label: {
+                    Text("George Russell")
+                })
+                
+                NavigationLink(destination: {
+                    ContentView(driver: landoNorris)
+                }, label: {
+                    Text("Lando Norris")
+                })
+                
+                NavigationLink(destination: {
+                    ContentView(driver: carlosSainz)
+                }, label: {
+                    Text("Carlos Sainz")
+                })
             }
             
             
@@ -44,5 +67,6 @@ struct DriverListView: View {
 struct DriverListView_Previews: PreviewProvider {
     static var previews: some View {
         DriverListView()
+            .preferredColorScheme(.dark)
     }
 }

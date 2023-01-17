@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TradingCardsApp: App {
+        
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                DriverListView()
+            }.preferredColorScheme(.dark)
         }
     }
 }
