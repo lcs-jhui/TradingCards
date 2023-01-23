@@ -8,8 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct Driver {
+struct Driver: Identifiable {
     
+    let id = UUID()
     let firstName: String
     let lastName: String
     let image: String
@@ -35,3 +36,5 @@ let georgeRussel = Driver(firstName: "GEORGE", lastName: "RUSSELL", image: "Geor
 let landoNorris = Driver(firstName: "LANDO", lastName: "NORRIS", image: "LandoNorris1", teamName: "MCLAREN", teamColor: "mclarenOrange", font: "COPPERPLATE-BOLD", number: "4", nationality: "British", podiums: "6", worldChampionships: "0", description: "jieoifoenioerwviobrivorvinorwvnirbniuorenbuernoiernvenroinvreoveirveivneirvnien", gradientColor: .mint)
 
 let carlosSainz = Driver(firstName: "CARLOS", lastName: "SAINZ", image: "CarlosSainz1", teamName: "FERRARI", teamColor: "rossoCorsa", font: "COPPERPLATE-BOLD", number: "55", nationality: "Spain", podiums: "15", worldChampionships: "0", description: "rieogoriewioewhoewfoewfowefnowefnoiuwefuoiwefuowefuoi", gradientColor: .indigo)
+
+let allDrivers = [lewisHamilton, maxVerstappen, charlesLeclerc, georgeRussel, landoNorris, carlosSainz]

@@ -11,43 +11,14 @@ struct DriverListView: View {
     var body: some View {
         NavigationView{
             
-            List{
-                
+            List (allDrivers) { currentDriver in
                 NavigationLink(destination: {
-                    ContentView(driver: lewisHamilton)
+                    ContentView(driver: currentDriver)
                 }, label: {
-                    Text("Lewis Hamilton")
+                    Text(currentDriver.firstName)
+                    Text(currentDriver.lastName)
                 })
                 
-                NavigationLink(destination: {
-                    ContentView(driver: maxVerstappen)
-                }, label: {
-                    Text("Max Verstappen")
-                })
-                
-                NavigationLink(destination: {
-                    ContentView(driver: charlesLeclerc)
-                }, label: {
-                    Text("Charles Leclerc")
-                })
-                
-                NavigationLink(destination: {
-                    ContentView(driver: georgeRussel)
-                }, label: {
-                    Text("George Russell")
-                })
-                
-                NavigationLink(destination: {
-                    ContentView(driver: landoNorris)
-                }, label: {
-                    Text("Lando Norris")
-                })
-                
-                NavigationLink(destination: {
-                    ContentView(driver: carlosSainz)
-                }, label: {
-                    Text("Carlos Sainz")
-                })
             }
             
             
